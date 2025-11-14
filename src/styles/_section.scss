@@ -1,7 +1,9 @@
 @use './variaveis' as *;
 
 .section {
-    padding: 2vw 5.6vh;
+    padding: 2vw 5vw;
+    max-width: 100%;
+    overflow-x: hidden;
 
     &__list {
         display: none;
@@ -33,7 +35,8 @@
     justify-content: center;
 
     @media(max-width: 768px){
-        display: block;
+        display: grid;
+        gap: 20px;
     }
 
     &__button{
@@ -48,9 +51,8 @@
         border-bottom: 6px solid transparent;
 
         @media(max-width: 768px){
-        display: block;
-        margin-left: 150px;
-        margin-top: 20px;
+        margin-left: 0;
+        text-align: center;
     }
 
 

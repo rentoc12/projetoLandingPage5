@@ -25,10 +25,6 @@
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
-
-    @media(max-width: 768px) {
-        display: block;
-    }
     }
 
     &__image {
